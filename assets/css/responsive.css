@@ -11,6 +11,20 @@
 
 /* Tablet & Mobile */
 @media screen and (max-width: 991.98px) {
+    .btn {
+        --height: 56px;
+        min-width: 118px;
+        padding: 0 21px;
+    }
+
+    .btn__text {
+        font-size: 1.2rem;
+    }
+
+    .btn:hover .btn__icon {
+        translate: -30px;
+    }
+
     .header .nav__row {
         flex-direction: row-reverse;
         padding: 0;
@@ -90,6 +104,10 @@
         width: 100%;
         bottom: 10px;
         left: 0;
+    }
+
+    .header .nav__row {
+        width: calc(100% - 40px);
     }
 
     .hero::after {
@@ -205,6 +223,7 @@
     }
 
     .client-item__text {
+        margin-left: 10px;
         font-weight: 600;
     }
 
@@ -268,6 +287,15 @@
 
     .project__btn {
         margin-top: 50px;
+        width: 154px;
+    }
+
+    .project__btn .btn__text {
+        text-align: center;
+    }
+
+    .btn:hover .project__btn-icon {
+        translate: -46px;
     }
 
     .journey {
@@ -298,7 +326,18 @@
     }
 
     .journey__btn {
+        --height: 44px;
+        min-width: 118px;
         overflow: hidden;
+    }
+
+    .btn:hover .journey__btn-icon {
+        translate: -26px;
+    }
+
+    .journey__play-btn {
+        width: 77px;
+        height: 77px;
     }
 
     .journey__bottom {
@@ -463,6 +502,14 @@
         width: 90%;
     }
 
+    .client__heading {
+        width: 75%;
+    }
+
+    .client-item__text {
+        margin-left: 6px;
+    }
+
     .project__heading {
         width: 80%;
     }
@@ -477,7 +524,7 @@
     }
 
     .project-item {
-        width: 90%;
+        width: 100%;
     }
 
     .journey__stat-number {

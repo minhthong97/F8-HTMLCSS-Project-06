@@ -581,7 +581,6 @@ button {
 .client-item {
     display: flex;
     align-items: center;
-    column-gap: 14px;
     transition: scale 0.5s ease;
 }
 
@@ -601,6 +600,7 @@ button {
 }
 
 .client-item__text {
+    margin-left: 14px;
     color: var(--secondary-color);
     font-size: 1.8rem;
     font-weight: 500;
