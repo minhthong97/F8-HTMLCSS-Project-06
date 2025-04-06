@@ -89,6 +89,15 @@
         transform: translateX(0);
     }
 
+    .exit-btn {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 20px;
+        height: 20px;
+        color: var(--secondary-color);
+    }
+
     .mobile-header__img-wrap {
         display: block;
         width: 37px;

@@ -426,11 +426,13 @@ button {
 }
 
 .hero__inner {
+    position: relative;
     display: flex;
     align-items: center;
     column-gap: 156px;
     height: calc(100vh - 120px);
     padding-top: 100px;
+    z-index: 2;
 }
 
 .hero__media {
